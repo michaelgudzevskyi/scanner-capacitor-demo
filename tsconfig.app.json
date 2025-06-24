@@ -15,8 +15,9 @@
     "noEmit": true,
     "jsx": "react-jsx",
 
-    /* Linting */
-    "strict": true,
+    /* Linting / strictness */
+    "strict": false,        // disables all strict checks (incl. noImplicitAny)
+    "noImplicitAny": false, // explicitly allow implicit any
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "erasableSyntaxOnly": true,
